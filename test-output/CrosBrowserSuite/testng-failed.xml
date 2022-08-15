@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CrosBrowserSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="CrossBowserTest(failed)">
+    <parameter name="BrowserName" value=""/>
+    <classes>
+      <class name="com.SauceDemo.TestClassees.TC09VerifyAddtocartFunctionality">
+        <methods>
+          <include name="teardown"/>
+          <include name="Browser"/>
+          <include name="setup"/>
+          <include name="verifyaddtocartfunctionality"/>
+        </methods>
+      </class> <!-- com.SauceDemo.TestClassees.TC09VerifyAddtocartFunctionality -->
+      <class name="com.SauceDemo.TestClassees.TC04VerifyLoginFunctionality">
+        <methods>
+          <include name="teardown"/>
+          <include name="Browser"/>
+          <include name="setup"/>
+          <include name="verifyLoginfunction"/>
+        </methods>
+      </class> <!-- com.SauceDemo.TestClassees.TC04VerifyLoginFunctionality -->
+      <class name="com.SauceDemo.TestClassees.TC12VerifyLogoutFunctionality">
+        <methods>
+          <include name="teardown"/>
+          <include name="Browser"/>
+          <include name="verifyLogoutFunctionality"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.SauceDemo.TestClassees.TC12VerifyLogoutFunctionality -->
+      <class name="com.SauceDemo.TestClassees.TC14VerifyMultipleAddtocart">
+        <methods>
+          <include name="verifymultipleproductaddtocart"/>
+          <include name="teardown"/>
+          <include name="Browser"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.SauceDemo.TestClassees.TC14VerifyMultipleAddtocart -->
+    </classes>
+  </test> <!-- CrossBowserTest(failed) -->
+</suite> <!-- Failed suite [CrosBrowserSuite] -->
